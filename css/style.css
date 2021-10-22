@@ -120,13 +120,37 @@ html{
 }
 
 .jumbo-sub{
-    width: 40%;
+    width: 30%;
+    margin-right: 10em;
+}
+
+.jumbo-sub p{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 3em;
+}
+
+.jumbo-sub a.btn {
+    display: inline-block;
+    background-color: #0061fe;
+    padding: 2px 16px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.jumbo-sub a.btn:hover {
+    opacity: 60%;
 }
 
 .jumbo-img{
-    width: 60%;
+    width: calc(70% - 10em );
 }
 
 .jumbo-img img{
     max-width: 100%;
 }
+
