@@ -99,9 +99,9 @@ html{
 
 .jumbotron{
     width: 100%;
-    height: 60em;
     background-color: #b4d0e7;
     padding-top: 70px;
+    padding-bottom: 2em;
 }
 
 .jumbo-container{
@@ -151,7 +151,10 @@ html{
 }
 
 .jumbo-img img{
-    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
 }
 
 .arrow-down{
@@ -159,3 +162,7 @@ html{
     color: black;
 }
 
+#piani{
+    height: 600px;
+    background-color: burlywood;
+}
