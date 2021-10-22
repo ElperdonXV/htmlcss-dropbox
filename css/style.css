@@ -28,6 +28,10 @@ html{
     display: inline-block;
 }
 
+.relative{
+    position: relative;
+}
+
 
 .fx-on-top{
     position: fixed;
@@ -93,11 +97,36 @@ html{
     border-bottom: none;
 }
 
-a.btn li:hover{
-    border-bottom: none;
+.jumbotron{
+    width: 100%;
+    height: 60em;
+    background-color: #b4d0e7;
+    padding-top: 70px;
 }
 
-.jumbotron{
-    height: 2500px;
-    background-color: yellowgreen;
+.jumbo-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbo-title{
+    margin: 5em 0;
+}
+
+.jumbo-title h1{
+    font-size: 5.5em;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+
+.jumbo-sub{
+    width: 40%;
+}
+
+.jumbo-img{
+    width: 60%;
+}
+
+.jumbo-img img{
+    max-width: 100%;
 }
