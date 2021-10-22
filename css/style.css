@@ -175,6 +175,20 @@ html{
 .piani-title h2{
     font-size: 3em;
     font-weight: 800;
+    margin-bottom: 1em;
 
 }
 
+.piani-choice{
+    margin-bottom: 3em;
+}
+
+.margin-right-card{
+    margin-right: 3em;
+}
+
+.card{
+    width: calc( (100% / 3) - 2em );
+    height: 60px;
+    background-color: chartreuse;
+}
