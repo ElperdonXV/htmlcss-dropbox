@@ -164,5 +164,17 @@ html{
 
 #piani{
     height: 600px;
-    background-color: burlywood;
+    padding-top: 18em;
 }
+
+.piani-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.piani-title h2{
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
