@@ -22,3 +22,11 @@ html{
 .float-right{
     float: right;
 }
+
+
+.fx-on-top{
+    position: fixed;
+    height: 100px;
+    background-color: white;
+}
+
