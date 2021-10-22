@@ -31,18 +31,29 @@ html{
 
 .fx-on-top{
     position: fixed;
-    height: 100px;
+    height: 70px;
     background-color: white;
     width: 100%;
-    padding: 1em;
+    z-index: 999;
+    
 }
 
-.logo a{
-    line-height: 100px;
-    margin-right: 2em;
+.nav{
+    margin: 0.5em;
 }
-.logo img{
+
+
+.logo a{
+    margin-right: 2em;
+    text-align: center;
     max-height: 100%;
+    margin-left: 0.5em;
+    line-height: calc(70px - 1em);
+    vertical-align: middle;
+}
+
+.logo a img{
+    vertical-align: text-bottom;
 }
 
 .menu {
@@ -54,12 +65,39 @@ html{
 }
 
 .menu li a{
+    display: inline-block;
     text-decoration: none;
-    line-height: 100px;
+    line-height: calc(70px - 1em);
+    font-weight: 800;
+    color: black;
+    vertical-align: middle;
+    padding-bottom: 0.4em;
 }
 
-ul.menu  li:hover{
+.menu li a:hover{
     border-bottom: 2px solid black;
 }
 
+.menu a.btn {
+    display: inline-block;
+    background-color: #0061fe;
+    padding: 2px 10px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
 
+.menu a.btn:hover {
+    opacity: 60%;
+    border-bottom: none;
+}
+
+a.btn li:hover{
+    border-bottom: none;
+}
+
+.jumbotron{
+    height: 2500px;
+    background-color: yellowgreen;
+}
