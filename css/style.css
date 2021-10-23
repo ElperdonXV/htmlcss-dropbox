@@ -163,7 +163,6 @@ html{
 }
 
 #piani{
-    height: 600px;
     padding-top: 18em;
 }
 
@@ -190,10 +189,123 @@ html{
 .card{
     width: calc( (100% / 3) - 2em );
     border: 1px solid lightgray;
+    height: 70em;
 }
 
 .header-card{
     text-align: center;
     border-bottom: 1px solid lightgray;
     padding: 1em 0;
+}
+
+.card-top, .card-bottom{
+    width: 80%;
+    margin: 1.5em auto;
+}
+
+.card-top h3, .card-large-left h3{
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 0.8em;
+}
+
+.card-top h4, .card-large-left h4{
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+
+.card-top span {
+    display: block;
+    color: grey;
+    margin-bottom: 1em;
+}
+
+.card-top p, .card-large-left p{
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.card-top a.btn {
+    display: inline-block;
+    background-color: #0061fe;
+    padding: 2px 16px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin: 2em 0;
+}
+
+.card-top a.btn:hover {
+    opacity: 60%;
+}
+
+.card-top .margin-bottom{
+    margin-bottom: 2.5em;
+}
+
+.card-top a{
+    color: #0061fe;
+    font-weight: 700;
+}
+
+.card-top hr{
+    border: 1px solid lightgray;
+    width: 6em;
+}
+
+.card-bottom h4{
+    margin: 2em 0;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.vantaggi{
+    list-style: none;
+    padding: 0;
+}
+
+.vantaggi li {
+    padding-left: 1.3em;
+    margin-bottom: 2em;
+}
+
+.vantaggi li:before {
+    content: "\2714";
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+    color: #0061fe;
+}
+
+.card-large{
+    margin-top: 3em;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.card-large-left{
+    width: 60%;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.card-large-right{
+    width: calc(40% - 2em);
+    margin-top: 2em;
+}
+
+.card-large-right a.btn {
+    display: inline-block;
+    background-color: #0061fe;
+    padding: 2px 90px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.card-large-right a.btn:hover {
+    opacity: 60%;
 }
