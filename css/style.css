@@ -309,3 +309,49 @@ html{
 .card-large-right a.btn:hover {
     opacity: 60%;
 }
+
+#partner{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 15em;
+}
+
+.box-img{
+    width: calc(60% - 3em);
+    margin-right: 3em;
+}
+
+.box-img img{
+    max-width: 100%;
+}
+
+.box-txt{
+    width: 40%;
+}
+
+.box-txt h4{
+    margin: 2em 0;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.box-txt p{
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5sem;
+    margin-bottom: 2em;
+}
+
+.box-txt a.btn {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px 40px;
+    line-height: 2em;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.box-txt a.btn:hover {
+    color: grey;
+}
