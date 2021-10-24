@@ -338,7 +338,7 @@ html{
 .box-txt p{
     font-size: 1.2em;
     font-weight: 600;
-    line-height: 1.5sem;
+    line-height: 1.5em;
     margin-bottom: 2em;
 }
 
@@ -354,4 +354,45 @@ html{
 
 .box-txt a.btn:hover {
     color: grey;
+}
+
+#business{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 15em;
+}
+
+#business h4{
+    margin: 2em 0;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.business-line{
+    margin: 1em 0;
+}
+
+.business-card{
+    width: calc( (100% / 3) - 2em );
+}
+
+.header-business-card img{
+    max-width: 100%;
+}
+
+.bottom-business-card h5{
+    margin: 1em 0;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.bottom-business-card p{
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.underline{
+    text-decoration: underline;
 }
