@@ -538,3 +538,57 @@ html{
 .call-to-action-right a.btn:hover {
     color: grey;
 }
+
+
+.faq-container{
+    width: 60%;
+    margin: 3em auto;
+    padding: 6em 0;
+}
+
+.faq-container h4{
+    margin: 1em 0;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.faq-line{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 2em 0;
+}
+.faq-left{
+    width: 99%;
+}
+
+.faq-right{
+    width: 1%;
+}
+
+.faq-left p{
+    font-weight: 800;
+}
+
+.faq-left .show{
+    
+    color: grey;
+    padding-top: 2em;
+    font-weight: 500;
+    display: none;
+}
+
+.up{
+    display: none;
+}
+
+.faq-line:hover .show {
+    display:block;
+}
+
+.faq-line:hover .down {
+    display:none;
+}
+
+.faq-line:hover .up {
+    display:block;
+}
