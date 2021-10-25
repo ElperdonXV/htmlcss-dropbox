@@ -609,5 +609,30 @@ footer{
 }
 
 .footer-col{
-    width: calc(100% / 5)
+    width: calc( (100% / 5) - 3em );
+    margin-right: 3em;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list li{
+    margin: 1.3em 0;
+}
+
+.footer-list h5, .footer-list a{
+    color: white;
+}
+
+.footer-list h5{
+    font-size: 1.5em;
+}
+
+.footer-list a{
+    text-decoration: none;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
 }
