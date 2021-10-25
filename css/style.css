@@ -247,7 +247,7 @@ html{
     margin-bottom: 2.5em;
 }
 
-.card-top a{
+.card-top a, .box-int a{
     color: #0061fe;
     font-weight: 700;
 }
@@ -364,8 +364,8 @@ html{
     padding-top: 15em;
 }
 
-#business h4{
-    margin: 2em 0;
+#business h4, .box-int h4{
+    margin: 1em 0;
     font-size: 2.5em;
     font-weight: 800;
 }
@@ -397,4 +397,21 @@ html{
 
 .underline{
     text-decoration: underline;
+}
+
+#team{
+    padding-top: 10em;
+}
+
+.box-int{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.team-small-col{
+    width: 15%;
+}
+
+.team-big-col{
+    width: 40%;
 }
