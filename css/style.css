@@ -636,3 +636,21 @@ footer{
 .footer-list a:hover{
     text-decoration: underline;
 }
+
+.footer-bottom{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+.footer-bottom hr{
+    border: 1px solid grey;
+    width: 7%;
+}
+
+.footer-bottom span{
+    display: block;
+    margin-top: 1.5em;
+    color: grey;
+    font-size: 1em;
+}
