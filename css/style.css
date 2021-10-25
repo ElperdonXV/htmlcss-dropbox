@@ -420,6 +420,8 @@ html{
 
 .team-big-col{
     width: 40%;
+    height: 32em;
+    background-color: #F5F5F5;
 }
 
 .box{
@@ -436,10 +438,39 @@ html{
     filter: invert();
 }
 
+.big-col-container{
+    width: 85%;
+    margin: 2em auto;
+}
+
 .bg-green{
    background-color: #A2D39B;
 }
 
 .bg-lightblue{
     background-color: #0093CE;
+}
+
+.bg-brown{
+    background-color: #61082B;
+}
+
+.bg-lightred{
+    background-color: #FF1C1C;
+}
+
+.bg-darkred{
+    background-color: #D5001F;
+}
+
+.bg-darkblue{
+    background-color: #0D2481;
+}
+
+.bg-skyblue{
+    background-color: #B4D0E7;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
 }
