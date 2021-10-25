@@ -408,10 +408,38 @@ html{
     margin: 0 auto;
 }
 
+.main-box-team{
+    margin-top: 3em;
+    width: 100%;
+    height: 32em;
+}
+
 .team-small-col{
     width: 15%;
 }
 
 .team-big-col{
     width: 40%;
+}
+
+.box{
+    width: 100%;
+    height: 16em;
+    text-align: center;
+    line-height: 16em;
+}
+
+.box img{
+    
+    width: 50%;
+    vertical-align: middle;
+    filter: invert();
+}
+
+.bg-green{
+   background-color: #A2D39B;
+}
+
+.bg-lightblue{
+    background-color: #0093CE;
 }
