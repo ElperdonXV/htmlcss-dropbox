@@ -555,9 +555,13 @@ html{
 
 .faq-line{
     border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
     padding: 2em 0;
 }
+
+.faq-line:last-child{
+    border-bottom: 1px solid lightgray;
+}
+
 .faq-left{
     width: 99%;
 }
@@ -593,3 +597,4 @@ html{
 .faq-line:hover .up {
     display:block;
 }
+
