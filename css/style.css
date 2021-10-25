@@ -598,3 +598,16 @@ html{
     display:block;
 }
 
+footer{
+    background-color: black;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.footer-col{
+    width: calc(100% / 5)
+}
