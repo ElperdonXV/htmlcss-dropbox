@@ -191,7 +191,7 @@ html{
 .card{
     width: calc( (100% / 3) - 2em );
     border: 1px solid lightgray;
-    height: 70em;
+    min-height: 70em;
 }
 
 .header-card{
