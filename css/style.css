@@ -205,6 +205,16 @@ html{
     margin: 1.5em auto;
 }
 
+.main-vantaggi{
+    width: 100%;
+}
+.main-vantaggi-left{
+    width: 10%;
+}
+.main-vantaggi-right{
+    width: 90%;
+}
+
 .card-top h3, .card-large-left h3{
     font-size: 1.8em;
     font-weight: 800;
@@ -491,3 +501,4 @@ html{
 .bg-yellow{
     background-color: #FFD830;
 }
+
